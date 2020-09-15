@@ -1,0 +1,37 @@
+/* Footer Styles */
+
+.footer {
+    background-color: #191a1d;
+    height: 222px;
+}
+
+.footer > .footer-links-wrapper {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer > .footer-links-wrapper > .for {
+    border: solid;
+    border-width: 2px;
+    border-color: grey;
+    width: 100%;
+    min-width: 350px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-color:#36383f;
+    cursor: pointer;
+}
+
+.footer > .footer-links-wrapper > .for > a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    
+}
